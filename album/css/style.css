@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    padding: 1%;
+    background-color: var(--cor-primaria);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+:root{
+    --cor-primaria: #2E6C7B;
+}
+
+h1, p {
+    color: var(--cor-primaria);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15%;
+    text-align: center;
+}
+
+#foto-versao-anime{
+    margin-left: 5%;
+    border-radius: 15%;
+}
+
+main {
+    margin-top: 8%;
+}
+
+#carta {
+    margin: 5%;
+    text-align: center;
+}
+
+#carta h1{
+    margin-bottom: 5%;
+}
+
+img {
+    width: 15%;
+}
+
+#foto3{
+    width: 12.3%;
+}
+
+.grupo-imagens1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.grupo-imagens2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nossas-fotos{
+    text-align: center;
+}
+
+#nossas-fotos h1 {
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color: var(--cor-primaria);
+    padding: 4%;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5%;
+    font-size: medium;
+    line-height: 2;
+}
+
+footer p {
+    color: #FFFFFF;
+    gap: 10%;
+    font-style: italic;
+}
+
+@media (max-width: 997px){
+    #home{
+        display: block;
+    }
+
+    #foto-versao-anime{
+        width: 50%;
+        margin-top: 5%;
+    }
+
+    #carta h1{
+        margin-top: 10%;
+    }
+
+    .grupo-imagens1 {
+        display: block;
+        margin: 0;
+    }
+
+    .grupo-imagens2{
+        display: block;
+    }
+
+    #nossas-fotos img{
+        width: 50%;
+        margin-bottom: 10%;
+        
+    }
+
+    footer{
+        margin: 0;
+    }
+}
